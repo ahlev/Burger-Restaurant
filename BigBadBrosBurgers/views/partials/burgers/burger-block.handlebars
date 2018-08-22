@@ -1,0 +1,10 @@
+<li>
+	{{burger_name}}
+<!-- put a button on all of our burger_name objects that changes based on their state in the database-->
+
+	<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}DEVOUR!{{else}}EAT IT AGAIN?{{/if}}
+	</button>
+</li>
+
+
